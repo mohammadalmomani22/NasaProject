@@ -21,13 +21,15 @@
             <tr>
                 <th>Filename</th>
                 <th>Event Time</th>
-                <th>Max Velocity (m/s)</th>
+                <th>Max Velocity (nm/s)</th>
+                <th>Impact Type</th>
             </tr>
             {% for result in results %}
             <tr>
                 <td>{{ result.filename }}</td>
                 <td>{{ result.event_time }}</td>
                 <td>{{ result.max_velocity }}</td>
+                <td>{{ result.mq_type}}</td>
             </tr>
             {% endfor %}
         </table>
