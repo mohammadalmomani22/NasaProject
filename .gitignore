@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff:
+*.log
+db.sqlite3
+media/
+
+# Environment variables
+.env
+
+# Static files
+/staticfiles/
+/static/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Node modules (if using Node.js for frontend)
+node_modules/
+
+# MacOS files
+.DS_Store

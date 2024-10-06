@@ -16,8 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from spacequake import views 
+from seismic_app.views import seismic_data_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('spacequake/', include('spacequake.urls')),
+    path('', views.home, name='home'),
+    path('', include('seismic_app.urls')),
 ]
