@@ -24,14 +24,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-nmjhai%mov$6su3rzrn6-1hp_#n=z@gd80sk*j@(e=k$#3+v_='
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# settings.py
 DEBUG = True
+ALLOWED_HOSTS = ['yourdomain.com', 'localhost', '127.0.0.1']
 
-ALLOWED_HOSTS = []
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'seismic_app',
     'rest_framework',
     'corsheaders',
     'spacequake',
@@ -83,6 +86,8 @@ DATABASES = {
         'NAME': config('DB_NAME'),
         'USER': config('DB_USER'),
         'PASSWORD': config('DB_PASSWORD'),
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
