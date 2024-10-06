@@ -25,26 +25,14 @@ This project focuses on analyzing seismic data from planetary missions, specific
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/planetary-seismic-detection.git
-   cd planetary-seismic-detection
+   git clone [https://github.com/your-username/planetary-seismic-detection.git](https://github.com/mohammadalmomani22/NasaProject.git)
+   cd Mars-detection
    ```
 
-2. **Install Dependencies**:
-   Make sure to install the necessary Python libraries listed in `requirements.txt`. You can do this using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Jupyter Notebook**:
+2. **Run the Jupyter Notebook**:
    Launch the Jupyter notebook and follow along with the steps for seismic data preprocessing and machine learning model applications.
    ```bash
    jupyter notebook mars.ipynb
-   ```
-
-4. **Launch the Web Visualization (Optional)**:
-   If you want to explore the visualization platform, set up the backend using Django and PostgreSQL, and start the server:
-   ```bash
-   python manage.py runserver
    ```
 
 ## Data Sources
@@ -58,7 +46,7 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 We welcome contributions! If you'd like to contribute, please fork the repository and submit a pull request.
 
 ## Contact
-For any inquiries or support, please contact [your-email@example.com].
+For any inquiries or support, please contact majedaaljunaidy@gmail.com.
 
 ---
 
